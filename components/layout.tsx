@@ -3,8 +3,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'tmp_jp'
-export const siteTitle = 'tmp_jp blog'
+const name = 'Tokio Nomura'
+export const siteTitle = 'blog'
 
 export default function Layout({
   children,
@@ -38,7 +38,7 @@ export default function Layout({
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            {/* <h1 className={utilStyles.heading2Xl}>{name}</h1> */}
           </>
         ) : (
           <>
